@@ -1,4 +1,11 @@
-n=int(input())
-print(str(n))
+def unique(arr):
+    s=set(arr)
+    for i in s:
+        if arr.count(i)==1:
+            return i
+
+arr=[1,2,3,4,3,2,1]
+result=unique(arr)
+print(result)
 
 
