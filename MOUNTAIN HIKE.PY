@@ -14,3 +14,4 @@ steps=int(input())
 path=input()
 r=countingvalleys(steps, path)
 print(r)
+
